@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .navigation-link {
+    @apply p-2 border border-primary text-primary;
+  }
+  .navigation-link-active {
+    @apply bg-primary text-white;
+  }
+}
